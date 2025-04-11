@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using BlazorApp_Chiffre.Components.Layout
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,6 +12,11 @@
     <link rel="icon" type="image/png" href="favicon.png"/>
     <HeadOutlet/>
 </head>
+<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+    </Found>
+</Router>
 
 <body>
 <Routes/>

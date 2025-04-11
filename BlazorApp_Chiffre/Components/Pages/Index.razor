@@ -1,5 +1,4 @@
 ﻿@page "/"
-@using Playfair_Chiffre_Lib
 @using PlayfairChiffre_Lib
 
 <PageTitle>Playfair Chiffre</PageTitle>
@@ -13,6 +12,7 @@
     <div class="flex gap-2">
         <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded" @onclick="Encrypt">Verschlüsseln</button>
         <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded" @onclick="Decrypt">Entschlüsseln</button>
+        <button class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded" @onclick="Reset">Zurücksetzen</button>
     </div>
 
     <div class="mt-4">
@@ -22,9 +22,9 @@
 </div>
 
 @code {
-    private string key = string.Empty;
-    private string inputText = string.Empty;
-    private string outputText = string.Empty;
+    private string key = "";
+    private string inputText = "";
+    private string outputText = "";
 
     private void Encrypt()
     {
@@ -50,5 +50,12 @@
         {
             outputText = $"Fehler: {ex.Message}";
         }
+    }
+
+    private void Reset()
+    {
+        key = string.Empty;
+        inputText = string.Empty;
+        outputText = string.Empty;
     }
 }

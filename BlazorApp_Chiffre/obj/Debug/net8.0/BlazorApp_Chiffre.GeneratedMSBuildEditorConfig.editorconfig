@@ -30,8 +30,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/David/OneDrive - HTL Krems/Htlkrems 3AHIT/SEW BIRN/Uebung2KLStoff/Playfair_Chiffre1/BlazorApp_Chiffre/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+[C:/Users/David/OneDrive - HTL Krems/Htlkrems 3AHIT/SEW BIRN/Uebung2KLStoff/Playfair_Chiffre1/BlazorApp_Chiffre/Components/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/David/OneDrive - HTL Krems/Htlkrems 3AHIT/SEW BIRN/Uebung2KLStoff/Playfair_Chiffre1/BlazorApp_Chiffre/Components/Routes.razor]
@@ -49,7 +49,3 @@ build_metadata.AdditionalFiles.CssScope = b-5a4nsmhnsc
 [C:/Users/David/OneDrive - HTL Krems/Htlkrems 3AHIT/SEW BIRN/Uebung2KLStoff/Playfair_Chiffre1/BlazorApp_Chiffre/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-uvxazsq5uh
-
-[C:/Users/David/OneDrive - HTL Krems/Htlkrems 3AHIT/SEW BIRN/Uebung2KLStoff/Playfair_Chiffre1/BlazorApp_Chiffre/Components/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
