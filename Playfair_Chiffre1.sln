@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playfair_Chiffre_Lib", "Pla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chiffre_Test", "Chiffre_Test\Chiffre_Test.csproj", "{F05CE3A1-A70D-49D8-8597-EC3E2585F521}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp_Chiffre", "BlazorApp_Chiffre\BlazorApp_Chiffre.csproj", "{28939A73-3DB4-494D-B3CA-13984B7F4F0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{F05CE3A1-A70D-49D8-8597-EC3E2585F521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F05CE3A1-A70D-49D8-8597-EC3E2585F521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F05CE3A1-A70D-49D8-8597-EC3E2585F521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28939A73-3DB4-494D-B3CA-13984B7F4F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28939A73-3DB4-494D-B3CA-13984B7F4F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28939A73-3DB4-494D-B3CA-13984B7F4F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28939A73-3DB4-494D-B3CA-13984B7F4F0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
