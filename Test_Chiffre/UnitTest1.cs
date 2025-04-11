@@ -1,4 +1,5 @@
 using Playfair_Chiffre_Lib;
+using PlayfairChiffre_Lib;
 
 namespace Test_Chiffre
 {
