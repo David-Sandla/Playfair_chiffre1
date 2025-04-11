@@ -5,11 +5,12 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{75C7D272-8ED1-4D02-B873-B73BB16FF3CD}</ProjectGuid>
+        <ProjectGuid>{F05CE3A1-A70D-49D8-8597-EC3E2585F521}</ProjectGuid>
+        <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Playfair_Chiffre_Lib</RootNamespace>
-        <AssemblyName>Playfair_Chiffre_Lib</AssemblyName>
+        <RootNamespace>Chiffre_Test</RootNamespace>
+        <AssemblyName>Chiffre_Test</AssemblyName>
         <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
@@ -37,12 +38,19 @@
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
         <Reference Include="System.Xml"/>
+        <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb">
+            <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Class1.cs"/>
-        <Compile Include="IChiffre.cs" />
-        <Compile Include="PlayfairChriffre.cs" />
+        <Compile Include="Tests.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Playfair_Chiffre_Lib\Playfair_Chiffre_Lib.csproj">
+        <Project>{75c7d272-8ed1-4d02-b873-b73bb16ff3cd}</Project>
+        <Name>Playfair_Chiffre_Lib</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
