@@ -1,36 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj": {}
+    "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj": {}
   },
   "projects": {
-    "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj": {
+    "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj",
+        "projectUniqueName": "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj",
         "projectName": "BlazorApp_Chiffre",
-        "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj",
-        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\obj\\",
+        "projectPath": "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj",
+        "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\BlazorApp_Chiffre\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Chiffre_Test\\Chiffre_Test.csproj": {
-                "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Chiffre_Test\\Chiffre_Test.csproj"
+              "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\Chiffre_Test\\Chiffre_Test.csproj": {
+                "projectPath": "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\Chiffre_Test\\Chiffre_Test.csproj"
               },
-              "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj": {
-                "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj"
+              "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj": {
+                "projectPath": "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj"
               }
             }
           }
@@ -39,6 +42,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -63,34 +71,49 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\David\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Chiffre_Test\\Chiffre_Test.csproj": {
+    "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\Chiffre_Test\\Chiffre_Test.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Chiffre_Test\\Chiffre_Test.csproj",
+        "projectUniqueName": "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\Chiffre_Test\\Chiffre_Test.csproj",
         "projectName": "Chiffre_Test",
-        "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Chiffre_Test\\Chiffre_Test.csproj",
+        "projectPath": "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\Chiffre_Test\\Chiffre_Test.csproj",
+        "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net452": {
             "projectReferences": {
-              "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj": {
-                "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj"
+              "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj": {
+                "projectPath": "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj"
               }
             }
           }
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low"
+        },
+        "packagesConfigPath": "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\Chiffre_Test\\packages.config"
       },
       "frameworks": {
         "net452": {}
       }
     },
-    "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj": {
+    "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj",
+        "projectUniqueName": "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj",
         "projectName": "Playfair_Chiffre_Lib",
-        "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj",
+        "projectPath": "C:\\Users\\Max\\OneDrive - HTL Krems\\Schule\\3AHIT\\SEW\\Emoji\\Playfair_chiffre1\\Playfair_Chiffre_Lib\\Playfair_Chiffre_Lib.csproj",
         "frameworks": {
           "net452": {
             "projectReferences": {}
