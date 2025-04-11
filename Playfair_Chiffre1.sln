@@ -2,9 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp_Chiffre", "BlazorApp_Chiffre\BlazorApp_Chiffre.csproj", "{28939A73-3DB4-494D-B3CA-13984B7F4F0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayfairChiffre_Lib", "PlayfairChiffre_Lib\PlayfairChiffre_Lib.csproj", "{C57273E3-2028-4299-A9B3-FC18967E7A5F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Chiffre", "Test_Chiffre\Test_Chiffre.csproj", "{09127AE2-67A8-45BA-9BBE-A3CBF908BBA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayfairChiffre_Libr", "PlayfairChiffre_Libr\PlayfairChiffre_Libr.csproj", "{D0B34289-F341-432E-A69C-EEE09172516F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,13 +16,13 @@ Global
 		{28939A73-3DB4-494D-B3CA-13984B7F4F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28939A73-3DB4-494D-B3CA-13984B7F4F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28939A73-3DB4-494D-B3CA-13984B7F4F0F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C57273E3-2028-4299-A9B3-FC18967E7A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C57273E3-2028-4299-A9B3-FC18967E7A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C57273E3-2028-4299-A9B3-FC18967E7A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C57273E3-2028-4299-A9B3-FC18967E7A5F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{09127AE2-67A8-45BA-9BBE-A3CBF908BBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{09127AE2-67A8-45BA-9BBE-A3CBF908BBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09127AE2-67A8-45BA-9BBE-A3CBF908BBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09127AE2-67A8-45BA-9BBE-A3CBF908BBA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B34289-F341-432E-A69C-EEE09172516F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B34289-F341-432E-A69C-EEE09172516F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B34289-F341-432E-A69C-EEE09172516F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B34289-F341-432E-A69C-EEE09172516F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

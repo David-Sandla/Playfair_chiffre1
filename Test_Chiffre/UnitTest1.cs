@@ -1,3 +1,5 @@
+using System;
+using NUnit.Framework;
 using Playfair_Chiffre_Lib;
 using PlayfairChiffre_Lib;
 
@@ -17,13 +19,15 @@ namespace Test_Chiffre
             string encrypted = cipher.Encrypt(plaintext);
             string decrypted = cipher.Decrypt(encrypted);
 
-            // Debug (optional)
             Console.WriteLine($"Encrypted: {encrypted}");
             Console.WriteLine($"Decrypted: {decrypted}");
 
-            // Assert (ohne Leerzeichen, evtl. 'X' eingefügt – deshalb Teilvergleich)
-            Assert.Contains("MORGEN", new[]{ decrypted });
-            Assert.Contains("FERIEN", new[]{ decrypted });
+            // Normalize (optional)
+            string normalized = decrypted.Replace(" ", "").ToUpper();
+
+            // Assert
+            Assert.That(normalized, Does.Contain("MORGEN"));
+            Assert.That(normalized, Does.Contain("FERIEN"));
         }
     }
 }
