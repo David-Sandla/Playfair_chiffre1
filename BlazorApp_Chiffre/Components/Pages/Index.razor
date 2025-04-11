@@ -1,4 +1,5 @@
 ﻿@page "/"
+@rendermode InteractiveServer
 @using PlayfairChiffre_Lib
 
 <PageTitle>Playfair Chiffre</PageTitle>
@@ -28,6 +29,7 @@
 
     private void Encrypt()
     {
+        outputText = $"[DEBUG] Encrypt clicked: {DateTime.Now}";
         try
         {
             var cipher = new PlayfairChriffre(key);
@@ -58,4 +60,9 @@
         inputText = string.Empty;
         outputText = string.Empty;
     }
+    
+    
+    
 }
+
+
