@@ -19,8 +19,9 @@ namespace Test_Chiffre
             string encrypted = cipher.Encrypt(plaintext);
             string decrypted = cipher.Decrypt(encrypted);
 
-            Console.WriteLine($"Encrypted: {encrypted}");
-            Console.WriteLine($"Decrypted: {decrypted}");
+            // Output
+            TestContext.WriteLine($"Encrypted: {encrypted}");
+            TestContext.WriteLine($"Decrypted: {decrypted}");
 
             // Normalize (optional)
             string normalized = decrypted.Replace(" ", "").ToUpper();
@@ -28,6 +29,31 @@ namespace Test_Chiffre
             // Assert
             Assert.That(normalized, Does.Contain("MORGEN"));
             Assert.That(normalized, Does.Contain("FERIEN"));
+        }
+
+        [Test]
+        public void EncryptDecrypt_ShanamMaleckMeineEier_WithKeyTAUBE_ShouldContainShanam()
+        {
+            // Arrange
+            string key = "TAUBE";
+            string plaintext = "SHANAM MALECK MEINE EIER";
+            var cipher = new PlayfairChriffre(key);
+
+            // Act
+            string encrypted = cipher.Encrypt(plaintext);
+            string decrypted = cipher.Decrypt(encrypted);
+
+            // Output
+            TestContext.WriteLine($"Encrypted: {encrypted}");
+            TestContext.WriteLine($"Decrypted: {decrypted}");
+
+            // Normalize
+            string normalized = decrypted.Replace(" ", "").ToUpper();
+
+            // Assert
+            Assert.That(normalized, Does.Contain("SHANAM"));
+            Assert.That(normalized, Does.Contain("MEINE"));
+            Assert.That(normalized, Does.Contain("EIER"));
         }
     }
 }

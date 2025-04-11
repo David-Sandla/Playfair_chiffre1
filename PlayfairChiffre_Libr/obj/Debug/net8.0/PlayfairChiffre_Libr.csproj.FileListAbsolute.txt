@@ -1,0 +1,12 @@
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\PlayfairChiffre_Libr\bin\Debug\net8.0\PlayfairChiffre_Libr.deps.json
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\PlayfairChiffre_Libr\bin\Debug\net8.0\PlayfairChiffre_Libr.dll
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\PlayfairChiffre_Libr\bin\Debug\net8.0\PlayfairChiffre_Libr.pdb
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\PlayfairChiffre_Libr\obj\Debug\net8.0\PlayfairChiffre_Libr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\PlayfairChiffre_Libr\obj\Debug\net8.0\PlayfairChiffre_Libr.AssemblyInfoInputs.cache
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\PlayfairChiffre_Libr\obj\Debug\net8.0\PlayfairChiffre_Libr.AssemblyInfo.cs
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\PlayfairChiffre_Libr\obj\Debug\net8.0\PlayfairChiffre_Libr.csproj.CoreCompileInputs.cache
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\PlayfairChiffre_Libr\obj\Debug\net8.0\PlayfairChiffre_Libr.sourcelink.json
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\PlayfairChiffre_Libr\obj\Debug\net8.0\PlayfairChiffre_Libr.dll
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\PlayfairChiffre_Libr\obj\Debug\net8.0\refint\PlayfairChiffre_Libr.dll
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\PlayfairChiffre_Libr\obj\Debug\net8.0\PlayfairChiffre_Libr.pdb
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\PlayfairChiffre_Libr\obj\Debug\net8.0\ref\PlayfairChiffre_Libr.dll

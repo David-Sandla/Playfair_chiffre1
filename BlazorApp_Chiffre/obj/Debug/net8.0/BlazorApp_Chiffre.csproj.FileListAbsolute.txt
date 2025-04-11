@@ -1,0 +1,9 @@
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\BlazorApp_Chiffre\obj\Debug\net8.0\BlazorApp_Chiffre.csproj.AssemblyReference.cache
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\BlazorApp_Chiffre\obj\Debug\net8.0\BlazorApp_Chiffre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\BlazorApp_Chiffre\obj\Debug\net8.0\BlazorApp_Chiffre.AssemblyInfoInputs.cache
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\BlazorApp_Chiffre\obj\Debug\net8.0\BlazorApp_Chiffre.AssemblyInfo.cs
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\BlazorApp_Chiffre\obj\Debug\net8.0\BlazorApp_Chiffre.csproj.CoreCompileInputs.cache
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\BlazorApp_Chiffre\obj\Debug\net8.0\BlazorApp_Chiffre.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\BlazorApp_Chiffre\obj\Debug\net8.0\BlazorApp_Chiffre.RazorAssemblyInfo.cache
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\BlazorApp_Chiffre\obj\Debug\net8.0\BlazorApp_Chiffre.RazorAssemblyInfo.cs
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\BlazorApp_Chiffre\obj\Debug\net8.0\BlazorApp_Chiffre.sourcelink.json
