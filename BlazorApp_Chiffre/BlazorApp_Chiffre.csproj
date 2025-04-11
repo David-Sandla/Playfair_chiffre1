@@ -7,8 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Chiffre_Test\Chiffre_Test.csproj" />
-      <ProjectReference Include="..\Playfair_Chiffre_Lib\Playfair_Chiffre_Lib.csproj" />
+      <ProjectReference Include="..\PlayfairChiffre_Lib\PlayfairChiffre_Lib.csproj" />
     </ItemGroup>
 
 </Project>

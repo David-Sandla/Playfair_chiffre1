@@ -1,0 +1,2 @@
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\Playfair_Chiffre_Lib\obj\Debug\Playfair_Chiffre_Lib.csproj.AssemblyReference.cache
+C:\Users\David\OneDrive - HTL Krems\Htlkrems 3AHIT\SEW BIRN\Uebung2KLStoff\Playfair_Chiffre1\Playfair_Chiffre_Lib\obj\Debug\Playfair_Chiffre_Lib.csproj.CoreCompileInputs.cache

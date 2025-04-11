@@ -3,32 +3,31 @@ using System.Collections.Generic;
 using System.Text;
 using Playfair_Chiffre_Lib;
 
-namespace Playfair_Chiffre_Lib
-
+namespace PlayfairChiffre_Lib
 {
     public class PlayfairChriffre : IChiffre
     {
         private char[,] matrix;
         private Dictionary<char, (int Row, int Col)> positions;
         private readonly string key;
-
+ 
         public PlayfairChriffre(string key)
         {
             this.key = key;
             BuildMatrix(key);
         }
-
+ 
         private void BuildMatrix(string key)
         {
             matrix = new char[5, 5];
             positions = new Dictionary<char, (int, int)>();
-
+ 
             // Vorbereitung: Großbuchstaben, Leerzeichen entfernen, "J" durch "I" ersetzen.
             key = key.ToUpper().Replace(" ", "").Replace("J", "I");
             bool[] used = new bool[26];
             used['J' - 'A'] = true; // Buchstabe J wird nicht verwendet.
             List<char> matrixList = new List<char>();
-
+ 
             foreach (char c in key)
             {
                 if (c < 'A' || c > 'Z')
@@ -51,7 +50,7 @@ namespace Playfair_Chiffre_Lib
                     matrixList.Add(c);
                 }
             }
-
+ 
             int pos = 0;
             for (int i = 0; i < 5; i++)
             {
@@ -63,7 +62,7 @@ namespace Playfair_Chiffre_Lib
                 }
             }
         }
-
+ 
         private string Preprocess(string text)
         {
             text = text.ToUpper().Replace(" ", "").Replace("J", "I");
@@ -75,7 +74,7 @@ namespace Playfair_Chiffre_Lib
             }
             return sb.ToString();
         }
-
+ 
         // Neuerstellung der Digraphen:
         // Wenn zwei gleiche Buchstaben hintereinander auftreten, wird ein 'X' eingefügt,
         // und nur der erste Buchstabe wird verarbeitet – der zweite Buchstabe bleibt für die nächste Runde.
@@ -87,7 +86,7 @@ namespace Playfair_Chiffre_Lib
             {
                 char first = text[i];
                 char second;
-
+ 
                 if (i + 1 < text.Length)
                 {
                     char nextChar = text[i + 1];
@@ -114,20 +113,20 @@ namespace Playfair_Chiffre_Lib
             }
             return digraphs;
         }
-
+ 
         public string Encrypt(string msg)
         {
             string preprocessed = Preprocess(msg);
             List<string> digraphs = CreateDigraphs(preprocessed);
             StringBuilder cipherText = new StringBuilder();
-
+ 
             foreach (string digraph in digraphs)
             {
                 char a = digraph[0];
                 char b = digraph[1];
                 var (rowA, colA) = positions[a];
                 var (rowB, colB) = positions[b];
-
+ 
                 if (rowA == rowB)
                 {
                     // Gleiche Zeile: jeweils Buchstabe rechts (mit Wrap-around)
@@ -153,19 +152,19 @@ namespace Playfair_Chiffre_Lib
             }
             return cipherText.ToString();
         }
-
+ 
         public string Decrypt(string msg)
         {
             msg = msg.ToUpper().Replace(" ", "");
             StringBuilder plainText = new StringBuilder();
-
+ 
             for (int i = 0; i < msg.Length; i += 2)
             {
                 char a = msg[i];
                 char b = msg[i + 1];
                 var (rowA, colA) = positions[a];
                 var (rowB, colB) = positions[b];
-
+ 
                 if (rowA == rowB)
                 {
                     // Gleiche Zeile: Buchstabe links (mit Wrap-around)
@@ -192,6 +191,4 @@ namespace Playfair_Chiffre_Lib
             return plainText.ToString();
         }
     }
-
-
 }

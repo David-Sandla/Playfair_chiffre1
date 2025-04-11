@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("BlazorApp_Chiffre")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PlayfairChiffre_Lib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("BlazorApp_Chiffre")]
-[assembly: System.Reflection.AssemblyTitleAttribute("BlazorApp_Chiffre")]
+[assembly: System.Reflection.AssemblyProductAttribute("PlayfairChiffre_Lib")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PlayfairChiffre_Lib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Von der MSBuild WriteCodeFragment-Klasse generiert.
