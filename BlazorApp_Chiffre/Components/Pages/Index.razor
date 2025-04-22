@@ -7,8 +7,8 @@
 <h1 class="text-2xl font-bold mb-4">Playfair Chiffre</h1>
 
 <div class="grid gap-4">
-    <input class="p-2 border rounded" @bind="key" placeholder="Schlüsselwort (z. B. FISCH)" />
-    <textarea class="p-2 border rounded" @bind="inputText" rows="4" placeholder="Text zum Ver- oder Entschlüsseln"></textarea>
+    <input class="p-2 border rounded" @bind="key" placeholder="Schlüsselwort" />
+    <textarea class="p-2 border rounded" @bind="inputText" rows="4" placeholder="Text zum Ver oder Entschlüsseln"></textarea>
 
     <div class="flex gap-2">
         <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded" @onclick="Encrypt">Verschlüsseln</button>
