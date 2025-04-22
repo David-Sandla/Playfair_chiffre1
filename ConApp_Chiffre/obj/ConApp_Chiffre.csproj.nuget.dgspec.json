@@ -1,38 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\ConApp_Chiffre\\ConApp_Chiffre.csproj": {}
+    "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\ConApp_Chiffre\\ConApp_Chiffre.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj": {
+    "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj",
+        "projectUniqueName": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj",
         "projectName": "BlazorApp_Chiffre",
-        "projectPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj",
-        "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\BlazorApp_Chiffre\\obj\\",
+        "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj": {
-                "projectPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj"
+              "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj": {
+                "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj"
               },
-              "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj": {
-                "projectPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj"
+              "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj": {
+                "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj"
               }
             }
           }
@@ -41,13 +39,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -63,24 +55,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -89,42 +63,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Max\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\David\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\ConApp_Chiffre\\ConApp_Chiffre.csproj": {
+    "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\ConApp_Chiffre\\ConApp_Chiffre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\ConApp_Chiffre\\ConApp_Chiffre.csproj",
+        "projectUniqueName": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\ConApp_Chiffre\\ConApp_Chiffre.csproj",
         "projectName": "ConApp_Chiffre",
-        "projectPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\ConApp_Chiffre\\ConApp_Chiffre.csproj",
-        "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\ConApp_Chiffre\\obj\\",
+        "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\ConApp_Chiffre\\ConApp_Chiffre.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\ConApp_Chiffre\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj": {
-                "projectPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj"
+              "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj": {
+                "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj"
               },
-              "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj": {
-                "projectPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj"
+              "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj": {
+                "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj"
               },
-              "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj": {
-                "projectPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj"
+              "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj": {
+                "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj"
               }
             }
           }
@@ -133,13 +105,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -155,51 +121,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Max\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\David\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj": {
+    "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj",
+        "projectUniqueName": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj",
         "projectName": "PlayfairChiffre_Libr",
-        "projectPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj",
-        "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\obj\\",
+        "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -212,13 +158,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -234,55 +174,39 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Max\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\David\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj": {
+    "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj",
+        "projectUniqueName": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj",
         "projectName": "Test_Chiffre",
-        "projectPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj",
-        "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\Test_Chiffre\\obj\\",
+        "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Test_Chiffre\\Test_Chiffre.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Test_Chiffre\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj": {
-                "projectPath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj"
+              "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj": {
+                "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj"
               }
             }
           }
@@ -291,13 +215,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -335,26 +253,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Max\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\David\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
