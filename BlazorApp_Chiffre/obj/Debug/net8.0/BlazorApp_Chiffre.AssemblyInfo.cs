@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorApp_Chiffre")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+944bdd3361989bc44b624cc7f137e907e3638d5e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorApp_Chiffre")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorApp_Chiffre")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

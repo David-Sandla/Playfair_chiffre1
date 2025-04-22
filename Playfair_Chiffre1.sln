@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Chiffre", "Test_Chiffr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayfairChiffre_Libr", "PlayfairChiffre_Libr\PlayfairChiffre_Libr.csproj", "{D0B34289-F341-432E-A69C-EEE09172516F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConApp_Chiffre", "ConApp_Chiffre\ConApp_Chiffre.csproj", "{BBB3E4C1-9917-4338-84FE-94A4D42E87EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{D0B34289-F341-432E-A69C-EEE09172516F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B34289-F341-432E-A69C-EEE09172516F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0B34289-F341-432E-A69C-EEE09172516F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB3E4C1-9917-4338-84FE-94A4D42E87EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB3E4C1-9917-4338-84FE-94A4D42E87EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB3E4C1-9917-4338-84FE-94A4D42E87EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB3E4C1-9917-4338-84FE-94A4D42E87EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
