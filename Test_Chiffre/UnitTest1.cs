@@ -1,3 +1,5 @@
+using System;
+using NUnit.Framework;
 using Playfair_Chiffre_Lib;
 using PlayfairChiffre_Lib;
 
@@ -17,13 +19,41 @@ namespace Test_Chiffre
             string encrypted = cipher.Encrypt(plaintext);
             string decrypted = cipher.Decrypt(encrypted);
 
-            // Debug (optional)
-            Console.WriteLine($"Encrypted: {encrypted}");
-            Console.WriteLine($"Decrypted: {decrypted}");
+            // Output
+            TestContext.WriteLine($"Encrypted: {encrypted}");
+            TestContext.WriteLine($"Decrypted: {decrypted}");
 
-            // Assert (ohne Leerzeichen, evtl. 'X' eingefügt – deshalb Teilvergleich)
-            Assert.Contains("MORGEN", new[]{ decrypted });
-            Assert.Contains("FERIEN", new[]{ decrypted });
+            // Normalize (optional)
+            string normalized = decrypted.Replace(" ", "").ToUpper();
+
+            // Assert
+            Assert.That(normalized, Does.Contain("MORGEN"));
+            Assert.That(normalized, Does.Contain("FERIEN"));
+        }
+
+        [Test]
+        public void EncryptDecrypt_ShanamMaleckMeineEier_WithKeyTAUBE_ShouldContainShanam()
+        {
+            // Arrange
+            string key = "TAUBE";
+            string plaintext = "SHANAM MALECK MEINE EIER";
+            var cipher = new PlayfairChriffre(key);
+
+            // Act
+            string encrypted = cipher.Encrypt(plaintext);
+            string decrypted = cipher.Decrypt(encrypted);
+
+            // Output
+            TestContext.WriteLine($"Encrypted: {encrypted}");
+            TestContext.WriteLine($"Decrypted: {decrypted}");
+
+            // Normalize
+            string normalized = decrypted.Replace(" ", "").ToUpper();
+
+            // Assert
+            Assert.That(normalized, Does.Contain("SHANAM"));
+            Assert.That(normalized, Does.Contain("MEINE"));
+            Assert.That(normalized, Does.Contain("EIER"));
         }
     }
 }

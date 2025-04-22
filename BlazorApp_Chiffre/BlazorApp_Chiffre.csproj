@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\PlayfairChiffre_Libr\PlayfairChiffre_Libr.csproj" />
+      <ProjectReference Include="..\Test_Chiffre\Test_Chiffre.csproj" />
     </ItemGroup>
 
 </Project>

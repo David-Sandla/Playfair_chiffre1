@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp_Chiffre.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorApp_Chiffre.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorApp_Chiffre.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorApp_Chiffre.props",
+      "PackagePath": "build\\BlazorApp_Chiffre.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorApp_Chiffre.props",
+      "PackagePath": "buildMultiTargeting\\BlazorApp_Chiffre.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorApp_Chiffre.props",
+      "PackagePath": "buildTransitive\\BlazorApp_Chiffre.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
