@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "PlayfairChiffre_Libr/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PlayfairChiffre_Libr.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlayfairChiffre_Libr.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PlayfairChiffre_Libr/1.0.0": {
+      "type": "project",
+      "path": "../PlayfairChiffre_Libr/PlayfairChiffre_Libr.csproj",
+      "msbuildProject": "../PlayfairChiffre_Libr/PlayfairChiffre_Libr.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "PlayfairChiffre_Libr >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\David\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Playfair_WinFormsApp\\Playfair_WinFormsApp.csproj",
+      "projectName": "Playfair_WinFormsApp",
+      "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Playfair_WinFormsApp\\Playfair_WinFormsApp.csproj",
+      "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\Playfair_WinFormsApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj": {
+              "projectPath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Users\\David\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

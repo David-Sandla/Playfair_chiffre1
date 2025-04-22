@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayfairChiffre_Libr", "Pla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConApp_Chiffre", "ConApp_Chiffre\ConApp_Chiffre.csproj", "{BBB3E4C1-9917-4338-84FE-94A4D42E87EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayfairChiffreWpf", "PlayfairChiffreWpf\PlayfairChiffreWpf.csproj", "{6F226CC0-B509-4763-A810-4CB71EA7FEA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playfair_WinFormsApp", "Playfair_WinFormsApp\Playfair_WinFormsApp.csproj", "{EB13801D-739F-41F5-B0CA-2E0B06FB379F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{BBB3E4C1-9917-4338-84FE-94A4D42E87EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBB3E4C1-9917-4338-84FE-94A4D42E87EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBB3E4C1-9917-4338-84FE-94A4D42E87EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F226CC0-B509-4763-A810-4CB71EA7FEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F226CC0-B509-4763-A810-4CB71EA7FEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F226CC0-B509-4763-A810-4CB71EA7FEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F226CC0-B509-4763-A810-4CB71EA7FEA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB13801D-739F-41F5-B0CA-2E0B06FB379F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB13801D-739F-41F5-B0CA-2E0B06FB379F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB13801D-739F-41F5-B0CA-2E0B06FB379F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB13801D-739F-41F5-B0CA-2E0B06FB379F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

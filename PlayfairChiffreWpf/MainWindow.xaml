@@ -1,0 +1,18 @@
+﻿<Window x:Class="PlayfairChiffreWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlayfairChiffreWpf"
+        mc:Ignorable="d"
+        Title="Playfair Chiffre" Height="350" Width="500">
+    <StackPanel Margin="20" VerticalAlignment="Center">
+        <TextBox x:Name="InputTextBox" Height="30" Margin="0,0,0,10" Text="Text eingeben"/>
+        <TextBox x:Name="KeyTextBox" Height="30" Margin="0,0,0,10" Text="Schlüssel"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+            <Button Content="Verschlüsseln" Width="120" Click="OnEncrypt"/>
+            <Button Content="Entschlüsseln" Width="120" Margin="10,0,0,0" Click="OnDecrypt"/>
+        </StackPanel>
+        <TextBlock x:Name="OutputTextBlock" FontSize="16" FontWeight="Bold" TextWrapping="Wrap" TextAlignment="Center"/>
+    </StackPanel>
+</Window>
