@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hT9UTTPkrvhqM6lHE7Xc/EHf0T/q415zb2JeyQcphrU6R8Dq84HyyQ8gJNsCiQqMuwUpi9UhGeCxF4AKuhc4Gg==",
+  "dgSpecHash": "+Ozgqw9ypnM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\BlazorApp_Chiffre\\BlazorApp_Chiffre.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Max\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\Max\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\Max\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\Max\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.11\\microsoft.netcore.app.host.win-x64.8.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
