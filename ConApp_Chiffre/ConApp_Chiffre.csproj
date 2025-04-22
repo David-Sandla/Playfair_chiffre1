@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BlazorApp_Chiffre\BlazorApp_Chiffre.csproj" />
+      <ProjectReference Include="..\PlayfairChiffre_Libr\PlayfairChiffre_Libr.csproj" />
+      <ProjectReference Include="..\Test_Chiffre\Test_Chiffre.csproj" />
+    </ItemGroup>
+
+</Project>
