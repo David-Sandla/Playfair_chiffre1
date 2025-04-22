@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "j9Xmx8BXDqRU6nFDtRZpqdPLOy1910+N17Cj3OpvRIGGO8bXd8LBSLU4unnJ2cbFId/jF+hEdkjO/gNi1uzn0g==",
+  "dgSpecHash": "JanbB2SGIag=",
   "success": true,
-  "projectFilePath": "C:\\Users\\David\\OneDrive - HTL Krems\\Htlkrems 3AHIT\\SEW BIRN\\Uebung2KLStoff\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Max\\Downloads\\Playfair_Chiffre1\\Playfair_Chiffre1\\PlayfairChiffre_Libr\\PlayfairChiffre_Libr.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Max\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\Max\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
+    "C:\\Users\\Max\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
