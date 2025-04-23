@@ -27,6 +27,7 @@ namespace Test_Chiffre
         }
 
         [Test]
+        // Der Unit Test war Shanams Idee und ich soll ihn so lassen 
         public void EncryptDecrypt_ShanamMaleckMeineEier()
         {
             string key = "TAUBE";
@@ -42,6 +43,7 @@ namespace Test_Chiffre
             string normal = decrypted.Replace(" ", "").ToUpper();
             
             Assert.That(normal, Does.Contain("SHANAM"));
+            Assert.That(normal, Does.Contain("MALECK"));
             Assert.That(normal, Does.Contain("MEINE"));
             Assert.That(normal, Does.Contain("EIER"));
         }

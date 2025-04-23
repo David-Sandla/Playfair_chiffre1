@@ -7,13 +7,13 @@
 <h1 class="text-2xl font-bold mb-4">Playfair Chiffre</h1>
 
 <div class="grid gap-4">
-    <input class="p-2 border rounded" @bind="key" placeholder="Schlüsselwort" />
-    <textarea class="p-2 border rounded" @bind="inputText" rows="4" placeholder="Text zum Ver oder Entschlüsseln"></textarea>
+    <input  @bind="key" placeholder="Schlüsselwort" />
+    <textarea  @bind="inputText" rows="4" placeholder="Text zum Ver oder Entschlüsseln"></textarea>
 
     <div class="flex gap-2">
-        <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded" @onclick="Encrypt">Verschlüsseln</button>
-        <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded" @onclick="Decrypt">Entschlüsseln</button>
-        <button class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded" @onclick="Reset">Zurücksetzen</button>
+        <button  @onclick="Encrypt">Verschlüsseln</button>
+        <button  @onclick="Decrypt">Entschlüsseln</button>
+        <button  @onclick="Reset">Zurücksetzen</button>
     </div>
 
     <div class="mt-4">
@@ -34,10 +34,13 @@
         {
             var cipher = new PlayfairChriffre(key);
             outputText = cipher.Encrypt(inputText);
+            
         }
+        
         catch (Exception ex)
         {
             outputText = $"Fehler: {ex.Message}";
+            
         }
     }
 
@@ -47,10 +50,13 @@
         {
             var cipher = new PlayfairChriffre(key);
             outputText = cipher.Decrypt(inputText);
+            
         }
+        
         catch (Exception ex)
         {
             outputText = $"Fehler: {ex.Message}";
+            
         }
     }
 
